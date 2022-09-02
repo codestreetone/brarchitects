@@ -1,0 +1,130 @@
+*{margin: 0; box-sizing: border-box; padding: 0; font-family: sans-serif; font-family: sans-serif;}
+.clr{clear: both;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.bg1{background-color: royalblue;}
+.bg2{background-color: white;}
+.bg3{background-color: tomato;}
+.bg4{background-color: black;}
+.bg5{background-color: lightgray;}
+.bg6{background-color: skyblue;}
+.bg7{background-color: lightcoral;}
+.bg8{background-color: teal;}
+.bg9{background-color: turquoise;}
+.bg10{background-color: maroon;}
+header{padding: 2%; box-shadow: 0px 2px 5px black; float: left; position: fixed;}
+.title{float: left;}
+.title-design{text-decoration: none; color: black; letter-spacing: 2px; text-transform: uppercase; font-size: 1.5rem; padding: 4%;}
+.title-design-look{font-weight: 600; background-color: rgb(59, 59, 59); color: white; padding: 1%;}
+.title-design:hover{background-color: lightgray;}
+nav{float: left;}
+nav ul{text-align: right;}
+nav ul li{display: inline;}
+nav ul li a{text-decoration: none; color: black; font-size: 1.5rem; letter-spacing: 1px; text-align: center; padding: 1%;}
+nav ul li a:hover{background-color: lightgray;}
+.banner{
+    margin-top: 12vh;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.52),rgba(0,0,0,0.52)),url(images/building.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    
+}
+.banner-title{font-size: 4rem; text-align: center; line-height: 90vh; color: white; text-shadow: 0px 5px 5px black; font-weight: 600;}
+.banner-title-design{background-color: rgb(59, 59, 59); padding: 1%;}
+.heading{padding-top: 10vh; font-size: 1.5rem; margin: auto;}
+.card{
+    margin: auto;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
+    grid-template-rows: 50vh;
+    column-gap: 1%;   
+}
+.item1-heading{background-color: black; color: white; text-align: center; padding: 2%;}
+.item1-image{width: 100%; height: 45vh;}
+.item2-heading{background-color: black; color: white; text-align: center; padding: 2%;}
+.item2-image{width: 100%; height: 45vh;}
+.item3-heading{background-color: black; color: white; text-align: center; padding: 2%;}
+.item3-image{width: 100%; height: 45vh;}
+.item4-heading{background-color: black; color: white; text-align: center; padding: 2%;}
+.item4-image{width: 100%; height: 45vh;}
+.card-1{
+    margin: auto;
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
+    grid-template-rows: 50vh;
+    column-gap: 1%;   
+}
+.item5-heading{background-color: black; color: white; text-align: center; padding: 2%;}
+.item5-image{width: 100%; height: 45vh;}
+.item6-heading{background-color: black; color: white; text-align: center; padding: 2%;}
+.item6-image{width: 100%; height: 45vh;}
+.item7-heading{background-color: black; color: white; text-align: center; padding: 2%;}
+.item7-image{width: 100%; height: 45vh;}
+.item8-heading{background-color: black; color: white; text-align: center; padding: 2%;}
+.item8-image{width: 100%; height: 45vh;}
+.heading-1{padding-top: 10vh; font-size: 1.5rem; margin: auto;}
+.about-article{margin: auto; margin-top: 5vh;}
+.card-2{
+    margin: auto;
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 24.25% 24.25% 24.25% 24.25%;
+    grid-template-rows: 70vh;
+    column-gap: 1%;   
+}
+.item9-image{width: 100%; height: 40vh;}
+.item9-name{font-size: 1.2rem; font-weight: 600;}
+.item9-position{color: grey; margin-top: 2vh;}
+.item9-about{margin-top: 3vh;}
+.item9-contact{text-align: center; background-color: lightgrey; padding: 2%; margin-top: 4vh;}
+.item9-contact:hover{background-color: grey;}
+.item10-image{width: 100%; height: 40vh;}
+.item10-name{font-size: 1.2rem; font-weight: 600;}
+.item10-position{color: grey; margin-top: 2vh;}
+.item10-about{margin-top: 3vh;}
+.item10-contact{text-align: center; background-color: lightgrey; padding: 2%; margin-top: 4vh;}
+.item10-contact:hover{background-color: grey;}
+.item11-image{width: 100%; height: 40vh;}
+.item11-name{font-size: 1.2rem; font-weight: 600;}
+.item11-position{color: grey; margin-top: 2vh;}
+.item11-about{margin-top: 3vh;}
+.item11-contact{text-align: center; background-color: lightgrey; padding: 2%; margin-top: 4vh;}
+.item11-contact:hover{background-color: grey;}
+.item12-image{width: 100%; height: 40vh;}
+.item12-name{font-size: 1.2rem; font-weight: 600;}
+.item12-position{color: grey; margin-top: 2vh;}
+.item12-about{margin-top: 3vh;}
+.item12-contact{text-align: center; background-color: lightgrey; padding: 2%; margin-top: 4vh;}
+.item12-contact:hover{background-color: grey;}
+.heading-2{padding-top: 10vh; font-size: 1.5rem; margin: auto;}
+.heading-2-para{margin: auto; margin-top: 5vh;}
+.form-area{margin: auto; margin-top: 2vh;}
+.form-name-design{height: 5vh; width: 100%;}
+.form-email-design{height: 5vh; width: 100%;}
+.form-subject-design{height: 5vh; width: 100%;}
+.form-comment-design{height: 10vh; width: 100%; line-height: 10vh;}
+.form-button{margin: auto; margin-top: 2vh;}
+.form-button-design{background-color: black; color: white; padding: 1%; border: 0px solid;}
+.form-button-design:hover{background-color: grey;}
+.banner1{
+    margin-top: 10vh;
+    height: 90vh;
+    background-image: url(images/building1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    
+}
+.footer{padding: 1%; background-color: black; color: white; text-align: center; margin-top: 10vh;}
